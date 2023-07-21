@@ -40,7 +40,7 @@ const Content = () => {
           <div className='slider-wrapper relative'>
             <div className='slider flex overflow-x-auto'>
               <div id='p1' className='images aspect-video snap-center'>
-                <img className='' src='src\assets\internship-website.PNG' alt=''/>
+                <img className='' src='\internship-website.PNG' alt=''/>
                 <a href='https://interseeker.netlify.app/'><h6 className='text-basic font-semibold'>Internship Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6></a>
                 <p className='text-basic leading-8 tracking-wider'>Using React and Tailwind, I created
                 a website that could assist students in finding internships without the difficulty I had.
@@ -48,7 +48,7 @@ const Content = () => {
               </div>
 
               <div id='p2'className='images aspect-video snap-center'>
-                <img className='' src='src\assets\capstonehome.PNG' alt=''/>
+                <img className='' src='\capstonehome.PNG' alt=''/>
                 <a href="https://github.com/rushionfisher/COMP3901-Project"><h6 className='text-basic font-semibold'>Capstone Project<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6></a>
                 <p className='text-basic leading-8 tracking-wider'>A redesign of our 
                 university's career website which includes an improved application process
