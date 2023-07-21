@@ -28,7 +28,7 @@ const Header = () => {
             <a className='nav-bar font-semibold text-[#EEEEEE]' href='#projects'><span className='inline-flex pr-4'><HiArrowNarrowRight className='text-[1.1rem]'/></span>PROJECTS</a>
             <a className='nav-bar font-semibold text-[#EEEEEE]' href='#experience'><span className='inline-flex pr-4'><HiArrowNarrowRight className='text-[1.1rem]'/></span>EXPERIENCE</a>
         </div>
-        <button className='mt-4'>View Resume</button> 
+        <a href='https://drive.google.com/file/d/1If0wjxKYVqP6o4PEIYlgnLrj1_pa5jTT/view?usp=sharing'><button className='mt-4'>View Resume</button></a>
 
     </div>
   )
