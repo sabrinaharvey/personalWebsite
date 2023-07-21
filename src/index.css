@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Poppins;
+  color: white;
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+.intro h1,
+.intro h5
+{
+  font-family: Inter;
+}
+
+
+body{
+  background: radial-gradient(ellipse at center, #1b2735 10%, #090a0f 90%);
+  position: relative;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icons{
+  cursor:pointer;
+}
+
+.projects h6:hover{
+  color:#64CCC5;
+  cursor: pointer;
+
+}
+
+p{
+  font-family: Poppins;
+  font-size: .7rem;
+}
+
+strong{
+  color: #64CCC5;
+  cursor: pointer;
+}
+
+button{
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid#FF8BA0;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #FF8BA0;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Inter;
+  letter-spacing: 1.2px;
+  font-size: 0.2rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(255, 139, 160, 0.5);
+  box-shadow: rgba(255, 139, 160, 0.2) 0 4px 12px;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+
+.nav-bar{
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+  font-family: Inter;
+  font-size: 0.6rem;
+}
+
+.nav-bar:hover{
+  transform: translateY(-1.5px);
+  transition: 250ms;
+}
+
+.slider-wrapper{
+  margin: 0 auto;
+  max-width: 40vw;
+}
+
+.images{
+  flex-shrink: 0;
+  width: 35vw;
+  margin-right: 7.2rem;
+
+}
+
+.images p{
+  width: 95%;
+}
+
+.images h6{
+  padding-top: 0.8rem;
+}
+
+.slider img{
+  border-radius: 20px;
+}
+
+.slider{
+  border-radius: 20px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem ;
+}
+
+.images:last-child{
+  margin-right: 0px;
+}
+
+.slider h6{
+  font-family: Inter;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  color: #eeee;
+}
+
+.slider-nav a{
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.lang-icons{
+  color:#B983FF;
+  width: 70%;
+  font-size: 3rem;
+  column-gap: 3rem;
+  flex-wrap: wrap;
+  row-gap: 2.1rem;
+  margin: 50px auto;
+}
+
+.experience h4
+{
+  font-family: Inter;
+  letter-spacing: 1px;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px){
+  .body{
+      flex-direction: column;
+  }
+
+  .header{
+      position: static;
+  }
+
+  .content{
+      margin-left: 0;
+      min-width: 90%;
+  }
+
+
+  html{
+    font-size: 0.5rem;
+  }
+
+}
