@@ -41,7 +41,7 @@ const Content = () => {
             <div className='slider flex overflow-x-auto'>
               <div id='p1' className='images aspect-video snap-center'>
                 <img className='' src='src\assets\internship-website.PNG' alt=''/>
-                <h6 className='text-basic font-semibold'>Internship Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6>
+                <a href='https://interseeker.netlify.app/'><h6 className='text-basic font-semibold'>Internship Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6></a>
                 <p className='text-basic leading-8 tracking-wider'>Using React and Tailwind, I created
                 a website that could assist students in finding internships without the difficulty I had.
                 </p>
@@ -57,19 +57,19 @@ const Content = () => {
                 </p>
               </div>
 
-              <div id='p3' className='images aspect-video snap-center'>
+              {/* <div id='p3' className='images aspect-video snap-center'>
                 <img className='' src='src\assets\nasa.jpg' alt=''/>
                 <h6 className='text-basic font-semibold tracking-wider'>Personal Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6>
                 <p className='text-basic leading-8 tracking-wider'>A personal website coded by me as a first attempt at 
                   ReactJS and Tailwind!
                 </p>
-              </div>
-            </div>
+              </div>*/}
+            </div> 
 
             <div className='slider-nav flex gap-4 absolute bottom-0 left-[50%] -translate-x-1/2 z-10'>
               <a href='#p1'></a>
               <a href='#p2'></a>
-              <a href='#p3'></a>
+              {/* <a href='#p3'></a> */}
             </div>
           </div>
         </section>
