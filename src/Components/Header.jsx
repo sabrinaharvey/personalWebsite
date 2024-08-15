@@ -14,7 +14,7 @@ const Header = () => {
                 Sabrina <span className='text-[#EEEEEE]'>Harvey</span>
             </h1>
             <h5 className='text-[1.5rem] text-[#EEEEEE] tracking-normal m-0 font-medium'> 
-            Junior Web Developer</h5>
+            Programmer/Web Developer</h5>
             <p className='mt-2 w-[60%] tracking-wider text-basic'>I like making the Web beautiful and functional through brilliant web design.</p>
         </div>
 

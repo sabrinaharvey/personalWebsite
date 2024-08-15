@@ -19,26 +19,32 @@ const Content = () => {
               At the age of 15, I discovered Codecademy and delved into web development, starting with very basic 
               HTML and CSS. Since then, my dedication to Computer Science has led me to advance my skills in  
               <strong className='font-semibold'> HTML</strong>, <strong className='font-semibold'>CSS</strong>, 
-              <strong className='font-semibold'> JavaScript</strong>, <strong className='font-semibold'>Python</strong>, and <strong className='font-semibold'>SQL</strong>. 
-              I've also explored popular frameworks like <strong className='font-semibold'>React</strong>, <strong className='font-semibold'> Tailwind</strong> and <strong className='font-semibold'>Bootstrap</strong>.
+              <strong className='font-semibold'> JavaScript</strong>, <strong className='font-semibold'>Python</strong>, and <strong className='font-semibold'>MySQL &  MSSQL</strong>. 
+              I've also explored popular frameworks like <strong className='font-semibold'>React</strong>, <strong className='font-semibold'> Tailwind</strong> and <strong className='font-semibold'>Express/Node.js</strong>.
             </p>
 
             <p className='text-basic leading-9 tracking-wider mt-6'>
-            To put those skills to use, I have embarked on some projects, the biggest of which 
-            is my <strong className='font-semibold'> <a href='#p2'>capstone project</a></strong> with a team of 3 other developers. Together, we built a remodel 
-            of our university’s career website, where I primarily focused on the documentation and 
-            the front end.
+            These skills are put to the test through my work experience as well as my personal projects. The biggest of these is a
+             <strong className='font-semibold'> <a href='#p2'>data management web app</a></strong> created with another developer. Together, we built an app to streamline data management processes.
+             Users can input and clean data through an intuitive interface, ensuring accuracy and consistency. Managers have the ability to assign specific data tasks to users and oversee user management, while all users can track their progress in real-time.
             </p>
 
             <p className='text-basic leading-9 tracking-wider mt-6'>
-            Now at the tail end of my degree, I’m excited to see how much more I can learn about 
-            creating beautiful and functional web experiences.
+            I have completed my degree and am now actively working in the field of web and software development. With a strong foundation in programming and a passion for creating dynamic, user-friendly web applications, I'm excited to continue growing and contributing to innovative projects in this space.
             </p>
         </section>
 
         <section id='projects'className='projects pt-[5rem]'>
           <div className='slider-wrapper relative'>
             <div className='slider flex overflow-x-auto'>
+              
+            <div id='p3' className='images aspect-video snap-center'>
+                <img className='' src='src\assets\nasa.jpg' alt=''/>
+                <h6 className='text-basic font-semibold tracking-wider'>Data Management App<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6>
+                <p className='text-basic leading-8 tracking-wider'>Web application that faciliates data management of stock inventory.
+                </p>
+              </div>
+
               <div id='p1' className='images aspect-video snap-center'>
                 <img className='' src='\internship-website.PNG' alt=''/>
                 <a href='https://interseeker.netlify.app/'><h6 className='text-basic font-semibold'>Internship Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6></a>
@@ -57,13 +63,6 @@ const Content = () => {
                 </p>
               </div>
 
-              {/* <div id='p3' className='images aspect-video snap-center'>
-                <img className='' src='src\assets\nasa.jpg' alt=''/>
-                <h6 className='text-basic font-semibold tracking-wider'>Personal Website<span className='icons inline-flex pl-3'><BsArrowUpRightCircleFill/></span></h6>
-                <p className='text-basic leading-8 tracking-wider'>A personal website coded by me as a first attempt at 
-                  ReactJS and Tailwind!
-                </p>
-              </div>*/}
             </div> 
 
             <div className='slider-nav flex gap-4 absolute bottom-0 left-[50%] -translate-x-1/2 z-10'>
