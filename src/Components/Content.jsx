@@ -68,7 +68,7 @@ const Content = () => {
             <div className='slider-nav flex gap-4 absolute bottom-0 left-[50%] -translate-x-1/2 z-10'>
               <a href='#p1'></a>
               <a href='#p2'></a>
-              {/* <a href='#p3'></a> */}
+             
             </div>
           </div>
         </section>
